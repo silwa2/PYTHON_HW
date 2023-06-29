@@ -27,7 +27,8 @@ for key, value in hike.items():
 
 print(f"Вместится в рюкзак не больше {BACKPACK} кг - это: {new_backpack}")
 
-# Второй метод, случайные вещи
+# Второй метод, случайные
+# вещи
 maximum_load = 8
 counter = 0
 List_artibute = []
