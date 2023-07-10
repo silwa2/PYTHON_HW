@@ -3,6 +3,7 @@
 # (кроме переменной из одной буквы s) на None.
 # Значения не удаляются, а помещаются в одноимённые переменные без s на конце.
 
+#  Я не могу ее сделать, вообще не получается
 def replacement_with_s(*words):
     words = list(words)
     temp = []
@@ -16,4 +17,4 @@ def replacement_with_s(*words):
     return words
 
 
-print(replacement_with_s('bis', 'ros', 's', 'row'))
+print(replacement_with_s('sdsf', 'res', 'sar', 's'))
