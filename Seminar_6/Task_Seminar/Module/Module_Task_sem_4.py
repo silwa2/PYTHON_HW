@@ -9,6 +9,7 @@
 
 __all__ = ['puzzle']
 
+
 def puzzle(puzle_text: str, solutions: list[str], tries: int) -> int:
     print(puzle_text)
     solutions =list(map(lambda x: x.lower(), solutions))
