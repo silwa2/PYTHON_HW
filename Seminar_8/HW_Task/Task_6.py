@@ -12,3 +12,5 @@ with open("task_6.pickle", "rb") as f:
     object1 = pickle.load(f)
 df = pandas.DataFrame(object1)
 df.to_csv(r'file.csv')
+
+
