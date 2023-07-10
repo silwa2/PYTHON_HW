@@ -8,6 +8,7 @@
 """
 from random import randint
 
+__all__ = ['func']
 
 def func(lover_limit, upper_limit, count):
     num = randint(lover_limit, upper_limit)
