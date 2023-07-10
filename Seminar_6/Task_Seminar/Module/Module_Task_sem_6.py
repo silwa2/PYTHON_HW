@@ -11,7 +11,10 @@
 '''
 
 
+
+
 __all__ = ['puzzle', 'puzzle_solut', 'puzzle_solver', 'puzzle_dict']
+
 
 
 _solutions = {} # словарь protected (защищенный)

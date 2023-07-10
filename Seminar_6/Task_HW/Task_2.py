@@ -61,6 +61,7 @@ if __name__ == '__main__':
             print(random_board)
             count += 1
 
+
 from Seminar_6.Task_HW.Module_HW.Module_Task_HW_2 import ferzy
 
 ferzy()

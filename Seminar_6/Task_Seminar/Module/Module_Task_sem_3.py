@@ -8,6 +8,7 @@
 """
 from random import randint
 
+__all__ = ['func']
 
 __all__ = ['func']
 

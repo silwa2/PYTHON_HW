@@ -7,6 +7,7 @@
 
 """
 
+
 __all__ = ['func']
 
 from random import randint
