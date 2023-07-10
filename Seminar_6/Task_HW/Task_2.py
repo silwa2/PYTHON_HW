@@ -7,6 +7,7 @@
 # каждое число от 1 до 8 - координаты 8 ферзей.
 # Если ферзи не бьют друг друга верните истину, а если бьют - ложь.
 
+
 import random
 from copy import copy
 
@@ -59,3 +60,8 @@ if __name__ == '__main__':
         if my_boards.check(random_board):
             print(random_board)
             count += 1
+
+from Seminar_6.Task_HW.Module_HW.Module_Task_HW_2 import ferzy
+
+ferzy()
+

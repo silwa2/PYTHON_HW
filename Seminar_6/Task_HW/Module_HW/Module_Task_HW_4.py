@@ -7,6 +7,8 @@
 Проверку года на високосность вынести в отдельную защищённую функцию.
 '''
 
+__all__ = ['date_validate']
+
 from datetime import datetime
 
 
