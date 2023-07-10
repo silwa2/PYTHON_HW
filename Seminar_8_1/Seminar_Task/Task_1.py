@@ -17,6 +17,6 @@ def convert_to_json(path, new_path):
         return json.dump(res, j)
 
 
-convert_to_json('C:\\Users\\79282\\PycharmProjects\\PYTHON_HW\\Seminar_7\\Task_Seminar\\Task_3.md',\
-                'C:\\Users\\79282\\PycharmProjects\\PYTHON_HW\\Seminar_8\\Seminar_Task\\task_1.json')
+convert_to_json('C:\\Users\\79282\\PycharmProjects\\PYTHON_HW\\Seminar_7\\Task_Seminar\\Task_3.md', \
+                '/Seminar_8_1\\Seminar_Task\\task_1.json')
 

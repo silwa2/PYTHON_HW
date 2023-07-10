@@ -21,4 +21,4 @@ def re_save_files(path, new_path):
             pickle.dump(json_file, p)
 
 
-re_save_files('C:\\Users\\79282\\PycharmProjects\\PYTHON_HW\\Seminar_8\\Seminar_Task', 'pickles')
+re_save_files('/Seminar_8_1\\Seminar_Task', 'pickles')

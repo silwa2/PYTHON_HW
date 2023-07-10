@@ -11,6 +11,12 @@
 
 from Module_HW.Module_Task_HW_4 import date_validate
 
+
 if __name__ == '__main__':
     print(date_validate('12.12.2016'))
     print(date_validate('29.32.2013'))
+
+
+print(date_validate('12.12.2016'))
+print(date_validate('29.32.2013'))
+

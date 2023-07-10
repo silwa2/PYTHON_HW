@@ -6,6 +6,10 @@
 Программа возвращает номер попытки, с которой была отгадана загадка или ноль,
 если попытки исчерпаны.
 """
+
+__all__ = ['puzzle']
+
+
 def puzzle(puzle_text: str, solutions: list[str], tries: int) -> int:
     print(puzle_text)
     solutions =list(map(lambda x: x.lower(), solutions))
@@ -19,6 +23,7 @@ def puzzle(puzle_text: str, solutions: list[str], tries: int) -> int:
             print(f'Не угадал! осталось {tries-num-1} попытки')
         num += 1
     return 0
+
 
 
 # def puzzle(puzle_text: str) -> int | str:
@@ -45,3 +50,4 @@ def puzzle(puzle_text: str, solutions: list[str], tries: int) -> int:
 # if __name__ == '__main__':
 #
 #     print(puzzle("Висит груша нельзя скушать"))
+
